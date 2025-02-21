@@ -1,4 +1,4 @@
-# [ICLR 2025] MVP: Multi-View Permutation of Variational Auto-Encoders (MVP)
+# [ICLR 2025] Deep Incomplete Multi-view Learning via Cyclic Permutation of VAEs
 
 Welcome to the official implementation of **MVP** (Multi-View Permutation of Variational Auto-Encoders), designed for tackling incomplete multi-view data in representation learning tasks.
 
