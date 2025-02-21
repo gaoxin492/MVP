@@ -4,7 +4,7 @@ Welcome to the official implementation of **MVP** (Multi-View Permutation of Var
 
 ## 🚀 Overview
 
-Multi-view learning often hits roadblocks due to missing data in one or more views. MVP steps in with a creative cyclic permutation strategy, paired with a variational inference framework, to establish inter-view correspondences. This enables **robust** representation learning, even with significant data gaps. We've tested MVP on benchmark datasets like PolyMNIST and MVShapeNet, and it delivers strong performance.
+Multi-view learning often hits roadblocks due to missing data in one or more views. MVP steps in with a creative cyclic permutation strategy, paired with a variational inference framework, to establish inter-view correspondences. This enables **sufficient and consistent** representation learning, even with significant data gaps. We've tested MVP on benchmark datasets like PolyMNIST and MVShapeNet, and it delivers strong performance.
 
 ---
 
