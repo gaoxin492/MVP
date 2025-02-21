@@ -1,16 +1,16 @@
-# MVP: Multi-View Permutation of Variational Auto-Encoders (MVP)
+# [ICLR 2025] MVP: Multi-View Permutation of Variational Auto-Encoders (MVP)
 
-This repository provides the implementation of the Multi-View Permutation of Variational Auto-Encoders (MVP) method for handling incomplete multi-view data in representation learning tasks.
+Welcome to the official implementation of **MVP** (Multi-View Permutation of Variational Auto-Encoders), designed for tackling incomplete multi-view data in representation learning tasks.
 
-## Overview
+## 🚀 Overview
 
-Multi-view learning often encounters challenges due to missing data in one or more views. MVP leverages a novel cyclic permutation strategy and a variational inference framework to establish inter-view correspondences, enabling effective representation learning even in the presence of significant missing data. The method is validated on various benchmark datasets, including PolyMNIST and MVShapeNet, demonstrating robust performance.
+Multi-view learning often hits roadblocks due to missing data in one or more views. MVP steps in with a creative cyclic permutation strategy, paired with a variational inference framework, to establish inter-view correspondences. This enables **robust** representation learning, even with significant data gaps. We've tested MVP on benchmark datasets like PolyMNIST and MVShapeNet, and it delivers strong performance.
 
 ---
 
-## Code Structure
+## 🗂 Code Structure
 
-The project is organized into the following directories:
+The project is neatly organized into the following directories:
 
 ```
 MVP/
@@ -30,7 +30,7 @@ MVP/
 
 ---
 
-## Training Command
+## 🎯 Training Command
 
 To train the model on the **Handwritten** dataset with a 50% missing rate, run the following command:
 
@@ -46,20 +46,20 @@ CUDA_VISIBLE_DEVICES=1 python /path/to/MVP/main_img.py --dataset 'MMNIST' --miss
 
 ---
 
-## Features
+## 🌟 Features
 
 ### Current Implementation
 - Handling missing views with cyclic permutations.
 - Variational inference framework with inter-view correspondences.
 - Full implementation of MVP on PolyMNIST and other benchmark datasets.
 
-### Visualization
+### 📊 Visualization
 - Loss evolution curves illustrating training dynamics.
 - Latent space visualizations showing inter-view correspondence.
 
 ---
 
-## Future Work (TODO List)
+## 🛠 Future Work (TODO List)
 
 - [ ] Release the preprocessed **MVShapeNet** dataset along with detailed usage instructions.
 - [ ] Extend the implementation to additional datasets with diverse view characteristics.
@@ -68,12 +68,18 @@ CUDA_VISIBLE_DEVICES=1 python /path/to/MVP/main_img.py --dataset 'MMNIST' --miss
 
 ---
 
-## Citation
+## 📜 Citation
 
 If you find this repository helpful, please consider citing:
 
 ```
-@inproceedings{To added.
+@inproceedings{
+gao2025deep,
+title={Deep Incomplete Multi-view Learning via Cyclic Permutation of {VAE}s},
+author={Xin Gao and Jian Pu},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=s4MwstmB8o}
 }
 ```
 
